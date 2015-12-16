@@ -10,6 +10,14 @@
     <ul>
         <li>
             <div>
+                <a href="http://link.springer.com/article/10.1007/s11433-015-5663-x" class="title" target="_blank">Determination of the <sup>25</sup>Mg(p, &gamma;)<sup>26</sup>Al resonance strength at E<sub>c.m.</sub> = 58 keV via shell model calculation</a>
+                <span class="date">2015</span>
+            </div>
+            <!-- <p class="author">W. P. Liu (CIAE)</p> -->
+            <span class="author">LI ZhiHong, SU Jun, LI YunJu, GUO Bing, LI ErTao, WANG YouBao, Yan Sheng-Quan and LIU WeiPing</span>
+        </li>
+        <li>
+            <div>
                 <a href="/static/file/publications&proposals/publications/6eb08b121926da94a47d97109713155d.pdf" class="title" target="_blank">Direct measurement of key reaction <sup>12</sup>C(&alpha;, &gamma;)<sup>16</sup>O in stellar evolution</a>
                 <span class="date">2015</span>
             </div>
