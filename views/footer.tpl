@@ -15,8 +15,8 @@
             <div class="col-md-6 col-sm-6">
                 <div class="title"><span class="more-small disable">{{i18n .Lang "more"}}</span>{{i18n .Lang "events"}}</div>
                 <ul id="eventList">
-                    <li></li>
-                    <li></li>
+                    <li class="col-md-4 col-sm-4 col-xs-4">{{.Event1}}</li>
+                    <li class="col-md-4 col-sm-4 col-xs-4">{{.Event2}}</li>
                 </ul>
             </div>
         </div>

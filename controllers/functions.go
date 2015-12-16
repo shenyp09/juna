@@ -10,8 +10,15 @@ import (
     "os"
 )
 
-func XML_unmarshal(lang string) *Recurlynews {
-    file, err := os.Open("static/data/news_" + lang + ".xml") // For read access.
+func XML_unmarshal(data ...string) *Recurlynews {
+    name := "news"
+    lang := data[0]
+
+    if len(data) >= 2 {
+        name = data[1]
+    }
+
+    file, err := os.Open("static/data/" + name + "_" + lang + ".xml") // For read access.
     if err != nil {
         fmt.Printf("error: %v", err)
         return nil
