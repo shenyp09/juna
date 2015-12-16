@@ -63,8 +63,6 @@ func (c *baseRouter) Prepare() {
     // Optional. Switch the session to a monotonic behavior.
     // session.SetMode(mgo.Monotonic, true)
 
-    // eventXML := XML_unmarshal(c.Lang, "event")
-
     coll := session.DB("juna").C("uv")
 
     result := UV{}
